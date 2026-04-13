@@ -4,7 +4,7 @@ class ReadingMemo < Formula
   license 'MIT'
   # 現状はmacos/arm64のみ動作確認
   url 'https://github.com/sakiso/homebrew-reading-memo/releases/download/v1.0.0/reading-memo-v1.0.0-darwin-arm64.tar.gz'
-  sha256 'sha256:0309b05c39d1d8cdaa150ef77dcd64ebb712f702f2ba95af3620d2a55108e2e0'
+  sha256 '0309b05c39d1d8cdaa150ef77dcd64ebb712f702f2ba95af3620d2a55108e2e0'
   version '1.0.0'
 
   def install
