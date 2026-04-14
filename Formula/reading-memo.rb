@@ -9,6 +9,6 @@ class ReadingMemo < Formula
 
   def install
     bin.install 'reading-memo'
-    generate_completions_from_executable(bin/"reading-memo", "''", "--generate-shell-completion")
+    generate_completions_from_executable(bin/"reading-memo", "completion")
   end
 end
